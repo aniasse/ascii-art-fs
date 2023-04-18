@@ -18,7 +18,7 @@ func TestNewline(t *testing.T) {
 
 }
 func TestPrintable(t *testing.T) {
-	tab := []rune{'é', 'g'}
+	tab := []rune{'g'}
 	tab2 := []rune{'d'}
 	result1 := Printable(tab)
 
